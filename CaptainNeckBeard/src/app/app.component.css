@@ -1,0 +1,7 @@
+
+app-navigation-bar{
+  background-color: var(--mainBlack);
+  margin: 0;
+  max-width: 100%;
+  height: fit-content;
+}

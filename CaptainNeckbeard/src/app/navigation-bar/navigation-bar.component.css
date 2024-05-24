@@ -1,0 +1,44 @@
+.navbar{
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid var(--mainGrey);
+    margin-bottom: 0;
+    position: fixed;
+    background-color: var(--mainBlack);
+
+    /* Ensures the that navbar's Items do not cascade */
+    min-width:1000px;
+    
+}
+
+#navBrand{
+    font-family: 'IM Fell English', serif;
+
+}
+
+.navItem{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 1em 1em;
+
+}
+
+.navLink{
+    font-family: 'Merriweather', serif;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: var(--rBright);
+
+}
+
+
+#navSlogan{
+    float:right;
+}

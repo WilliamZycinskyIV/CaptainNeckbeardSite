@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    --mainBlack: #1a1a1d;
+    --mainGrey: #4e4e50;
+    --rDark: #6f2232;
+    --rMid: #950740;
+    --rBright: #c3073f;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
