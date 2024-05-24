@@ -1,19 +1,10 @@
-:root {
-    --mainBlack: #1a1a1d;
-    --mainGrey: #4e4e50;
-    --rDark: #6f2232;
-    --rMid: #950740;
-    --rBright: #c3073f;
 
-  }
+#backGroundImage{
+    width: 100%;
+    position: absolute;
+    background-color: var(--mainBlack);
 
-*{
-    padding: 0;
-    margin: 0;
 }
-
-
-/* START CONTENT BACKGROUND SECTION */
 
 #content{
     width: 100%;
@@ -21,98 +12,14 @@
     position: absolute;
 }
 
-body{
-    background-color: var(--mainBlack);
-    margin: 0;
-    max-width: 100%;
-}
-
-#backGroundImage{
-    width: 100%;
-    position: absolute;
-}
-
 .majorSection{
     position: relative;
     width:80%;
-    height: auto;
-    margin: 50px 10%;
+    height: fit-content;
+    margin: 100px 10%;
 
     /* For Troulble Shooting */
-    /* border: .5px solid #c3073f;  */
+    border: .5px solid #c3073f; 
 }
 
-/* END CONTENT BACKGROUND SECTION */
 
-/* START THIS WEEK COMIC SECTION */
-
-#comicOfTheWeek{
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-#comicOfTheWeekTextSection{
-    display: inline-block;
-
-    width: 49.5%; 
-    height: auto;
-    aspect-ratio:  1 / 1;
-
-    /* For Troulble Shooting */
-    /* border: .5px solid #c3073f;  */
-}
-
-#comicOfTheWeekTitle{
-    margin-top: 40px;
-    height: auto;
-    width: 100%;
-    
-    font-size: 65px;
-    color: var(--rMid);
-    /* -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: var(--rMid); */
-
-    letter-spacing: 3px;
-
-    /* For Troulble Shooting */
-    /* border: .5px solid #c3073f;  */
-}
-
-#comicOfTheWeekAbout{
-    font-size: 25px;
-    color: var(--rBright);
-
-}
-
-#comicOfTheWeekComic{
-    display: inline-block;
-    width: 49.5%; 
-    height: auto;
-    aspect-ratio:  1 / 1;
-
-    float:right;
-    /* For Troulble Shooting */
-    /* border: .5px solid #c3073f;  */
-    
-}
-
-#comicImage{
-    height: 100%;
-    aspect-ratio:  1 / 1;
-
-}
-
-/* END THIS WEEK COMIC SECTION */
-
-
-
-/* START ABOUT SECTION */
-
-#about{
-    height: auto;
-    
-
-}
-
-/* END ABOUT SECTION */
