@@ -1,23 +1,17 @@
 <div id='comicOfTheWeekTextSection' class="comicOfTheWeekBlocks">
 
     <h2 id='comicOfTheWeekTitle' >
-        He Is GOING!
+        {{ mostRecentComic.title }}
     </h2>
 
     <div id='comicOfTheWeekAbout'>
         <p>
-        This week captain kneckbears is going at is this absolue madlad
-        cannot be contained.
-        Join us this week to experience the ship, the ocean
-        and the beard.
-        He certainly is a man!
-        How did he get here!?
-        Find out with us this week!
+        {{ mostRecentComic.description }}
         </p>
     </div>
 
 </div>
 
 <div id='comicOfTheWeekComic' class="comicOfTheWeekBlocks">
-    <img src="assets/images/placeHolderImage.jpg" id='comicImage' >
+    <img src={{mostRecentComic.imageUrl}} id='comicImage' >
 </div> 
