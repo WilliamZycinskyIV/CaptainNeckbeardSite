@@ -5,3 +5,18 @@ app-navigation-bar{
   max-width: 100%;
   height: fit-content;
 }
+
+#backGroundImage{
+  width: 100%;
+  position: absolute;
+  background-color: var(--mainBlack);
+
+  
+}
+
+
+#content{
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
