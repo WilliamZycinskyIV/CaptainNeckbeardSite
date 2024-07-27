@@ -1,0 +1,44 @@
+#footerBox{
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--rDark);
+    position: absolute;
+}
+
+#footerContent{
+    width: 80%;
+    margin: 25px 10%;
+
+
+
+    /* border: solid 2px black; */
+}
+
+#footerContent p{
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+}
+
+#socialButtons{
+    display: inline-block;
+    float: right;
+
+}
+
+#socialButtons a{
+    padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0px 2px;
+
+
+  background: var(--rBright);
+}
+
+#socialButtons a:hover {
+    opacity: 0.7;
+}
