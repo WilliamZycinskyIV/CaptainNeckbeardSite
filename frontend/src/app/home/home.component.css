@@ -11,3 +11,63 @@
 }
 
 
+/* COMIC OF THE WEEK STYLES
+----------------------------------------------------------------------- */
+
+#comicOfTheWeek{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.comicOfTheWeekBlocks{
+    width: 49.5%; 
+    height: auto;
+    aspect-ratio:  1 / 1;
+}
+
+
+#comicOfTheWeekTextSection{
+    display: inline-block;
+
+    /* For Troulble Shooting */
+    /* border: .5px solid #c3073f;  */
+}
+
+#comicOfTheWeekTitle{
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    
+    font-size: 65px;
+    color: var(--rMid);
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--rMid); */
+
+    letter-spacing: 3px;
+
+    /* For Troulble Shooting */
+    /* border: .5px solid #c3073f;  */
+}
+
+#comicOfTheWeekAbout{
+    font-size: 25px;
+    color: var(--rBright);
+
+}
+
+#comicOfTheWeekComic{
+    display: inline-block;
+ 
+
+    float:right;
+    /* For Troulble Shooting */
+    /* border: .5px solid #c3073f;  */
+    
+}
+
+#comicImage{
+    height: 100%;
+    aspect-ratio:  1 / 1;
+
+}
