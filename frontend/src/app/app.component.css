@@ -1,4 +1,12 @@
-app-navigation-bar {
-  position: sticky;
+
+app-navigation-bar{
   top:0;
+}
+
+.page-content{
+  min-height: 95vh;
+}
+
+app-footer{
+  margin-top: auto;
 }

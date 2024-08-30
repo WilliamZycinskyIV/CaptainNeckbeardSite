@@ -22,7 +22,7 @@ html{
 }
 
 html, body{
-    /* height: 100%; */
+    min-height: 100vh;
     font-size: 62.5%; /* Sets the default to 10px so i can use em to multiply easily */
     margin: 0;
 }
@@ -31,4 +31,10 @@ html, body{
 body {
     background: url("../public/assets/shipSil.png") var(--mainBlack) no-repeat;
     background-size: cover;
-  }
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 30px;
+}

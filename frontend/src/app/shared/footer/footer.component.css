@@ -12,12 +12,13 @@ footer{
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 10px;
     gap:20px;
 }
 
 .social-icon{
-    width: 25px;
+    width: 50px;
 }
 
 
@@ -37,26 +38,14 @@ footer{
 }
 
 
-
-
-/* @media screen and (min-width: 620px) {
-    footer{
-        display: inline-flex;
-        justify-content: space-between;
-    }
-
-    .copyright{
-        display:flex;
-    }
-    
-    .copyright span{
-        margin: auto 15px;
-    }
+@media screen and (max-width: 1400px) {
+   .social-icon{
+    width: 40px;
+   }
 }
-
-@media screen and (max-width: 620px) {
-    footer{
-        font-size: 1.3rem;
+@media screen and (max-width: 1000px) {
+    .social-icon{
+     width: 30px;
     }
+ }
 
-} */

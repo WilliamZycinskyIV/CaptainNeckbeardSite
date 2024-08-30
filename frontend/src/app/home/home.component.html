@@ -1,24 +1,20 @@
-<!-- <div id="content">
+<div>
+    <!-- Comic of the week -->
+    <section class="content-wrapper weekly-comic">
 
-    <div class="majorSection">
-
-        <div id='comicOfTheWeekTextSection' class="comicOfTheWeekBlocks">
-
-            <h2 id='comicOfTheWeekTitle' >
-                  Placeholder Title
-            </h2>
-        
-            <div id='comicOfTheWeekAbout'>
-                <p>
-                  Placeholder Desc
-                </p>
+            <article>
+                <h1>{{recentComic.name}}</h1>
+                <hr>
+                <p>{{recentComic.description}}</p>
+            </article>
+                
+            <div class="comic-image">
+                <img [src]=[recentComic.filePath] class="comic-image">
             </div>
         
-        </div>
-        
-        <div id='comicOfTheWeekComic' class="comicOfTheWeekBlocks">
-            <img src="" id='comicImage' >
-        </div> 
+    </section>
 
-    </div>
-     -->
+
+
+</div>
+    

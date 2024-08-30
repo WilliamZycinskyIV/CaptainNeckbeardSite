@@ -1,8 +1,12 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 
+import { ComicsService } from './services/comics.service';
+
 
 @NgModule({
-  providers: []
+  providers: [
+    ComicsService,
+  ]
 })
 export class CoreModule {
   constructor(@Optional() @SkipSelf() parentModule: CoreModule) {

@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideRouter, Router, RouterOutlet } from '@angular/router';
 import { routes } from './app-routing.module';
+import { CoreModule } from './core/core.module';
 
 
 
@@ -21,6 +22,7 @@ import { routes } from './app-routing.module';
     AppRoutingModule,
     RouterOutlet,
     SharedModule,
+    CoreModule,
 
 
   ],
