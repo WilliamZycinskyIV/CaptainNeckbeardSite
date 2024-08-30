@@ -5,7 +5,6 @@ import { SharedModule } from './shared/shared.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
 import { provideRouter, Router, RouterOutlet } from '@angular/router';
 import { routes } from './app-routing.module';
 
@@ -20,7 +19,6 @@ import { routes } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
     RouterOutlet,
     SharedModule,
 

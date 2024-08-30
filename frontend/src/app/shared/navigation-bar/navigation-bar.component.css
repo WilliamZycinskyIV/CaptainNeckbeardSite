@@ -1,31 +1,71 @@
-#navBrand{
-    /* font-family: 'IM Fell English', serif; */
+.navbar{
+    background-color: var(--rDark);
+    border-bottom: 4px solid var(--rBright);
 
+    font-size: 3rem;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navItem{
-    float: left;
-    font-size: 16px;
+
+.nav-links{
+    display: flex;
+    height: 100%;
+    list-style: none;
+}
+
+.nav-item{
+    padding: 5px 15px;
+}
+
+.nav-item *{
+    margin: auto 0;
+}
+
+.nav-item:hover{
+    background-color: var(--rBright);    
+}
+
+.nav-brand{
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-decoration: none;
-    padding: 1em 1em;
-
 }
 
-.navLink{
-    font-family: 'Merriweather', serif;
-}
-
-.navItem a{
-    text-decoration: none;
-    color: var(--rBright);
-
+.slogan{
+    font-style: italic;
+    padding: 0 15px;
 }
 
 
-#navSlogan{
-    float:right;
-    color: var(--rBright);
+@media screen and (max-width: 1100px){
+    .navbar{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .navbar{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .slogan{
+        display: none;    
+    }
+}
+
+@media screen and (max-width: 525px){
+    .navbar{
+        font-size: 1.5rem;
+    }
+  
+}
+
+@media screen and (max-width: 425px){
+    .navbar{
+        font-size: 1.2rem;
+    }
 }
