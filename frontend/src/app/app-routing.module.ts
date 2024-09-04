@@ -8,13 +8,13 @@ export const routes: Routes = [
       title: "Home: Captain Neckbeard ",
       component: HomeComponent,
   },
-  // {
-  //     path: "library",
-  //     title: "Library: Captain Neckbeard",
-  //     // component: LibraryComponent,
-  // },
+  {
+      path: "library",
+      title: "Library: Captain Neckbeard",
+      component: HomeComponent,
+  },
   { 
-      path: '',   redirectTo: '/home', pathMatch: 'full' 
+      path: '', redirectTo: 'home', pathMatch: 'full' 
   },
 ];
 

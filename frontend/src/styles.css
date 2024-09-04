@@ -2,6 +2,14 @@
 *, *:before, *:after {
     box-sizing: inherit;
 
+    --palette-off-white: #f6f6f6;
+    --pallete-mid-gray: #85a7ad;
+    --pallete-dark-gray:#68878a;
+    --palette-deep-blue: #1b3b5b;
+    --palette-blue-accent: #046c84;
+    --palette-red-accent: #89354c;
+
+
 
     --mainBlack: #1a1a1d;
     --mainGrey: #4e4e50;
@@ -29,12 +37,11 @@ html, body{
 
 
 body {
-    background: url("../public/assets/shipSil.png") var(--mainBlack) no-repeat;
+    background: url("../public/assets/shipSil.png") var(--mainGrey) no-repeat;
     background-size: cover;
 }
 
 .content-wrapper{
     margin: 0 auto;
-    max-width: 1500px;
-    padding: 30px;
+    width: 80%;
 }

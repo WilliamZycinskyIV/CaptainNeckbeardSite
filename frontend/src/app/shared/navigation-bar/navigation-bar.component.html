@@ -1,27 +1,35 @@
-<nav class="navbar">
-    
-    <div class="nav-item nav-brand">
-        <a routerLink="/home">Captain&nbsp;Neckbeard</a>
+<nav class="navbar content-wrapper">
+
+    <div  class="nav-logo">
+        <img src="/assets/CNB-Icon.png" alt="logo">
     </div>
+  
+    <header class="nav-texts">
 
-    <ul class="nav-links">
+        <h1>
+            Captain&nbsp;Neckbeard
+        </h1>
 
-        <li class="nav-item">
-            <a routerLink="/library">Library</a>
-        </li>
+        <ul class="nav-links">
 
-        <li class="nav-item">
-            <a> Shop </a>
-        </li>
-
-        <li class="nav-item">
-            <a> Donate </a>
-        </li>
-
-    </ul>
+            <li class="nav-item">
+                <a routerLink="/home" routerLinkActive="current-route">Home</a>
+            </li>
     
-    <section class="slogan">
-        <span> For you, my Kitten Waifus</span>
-    </section>
+            <li class="nav-item">
+                <a routerLink="/library" routerLinkActive="current-route">Library</a>
+            </li>
+    
+            <li class="nav-item" routerLinkActive="current-route">
+                <a> Shop </a>
+            </li>
+    
+            <li class="nav-item" routerLinkActive="current-route">
+                <a> Donate </a>
+            </li>
+    
+        </ul>
+    </header>
+
 
 </nav>

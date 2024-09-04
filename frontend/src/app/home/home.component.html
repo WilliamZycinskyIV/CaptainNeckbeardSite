@@ -1,17 +1,25 @@
 <div>
     <!-- Comic of the week -->
-    <section class="content-wrapper weekly-comic">
+    <section class="weekly-comic-section">
 
+        <div class="weekly-comic-content content-wrapper">
             <article>
-                <h1>{{recentComic.name}}</h1>
+                <h1>Weekly Adventure</h1>
                 <hr>
-                <p>{{recentComic.description}}</p>
+                <p class="">{{recentComic.name}}: {{recentComic.description}}</p>
             </article>
                 
             <div class="comic-image">
-                <img [src]=[recentComic.filePath] class="comic-image">
+                <img [src]=[recentComic.filePath]>
             </div>
+
+        </div>
+            
         
+    </section>
+
+    <section class="content-wrapper about">
+
     </section>
 
 

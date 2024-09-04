@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background-color: var(--rDark);
+    background-color: var(--pallete-dark-gray);
     font-size: 2rem;
     padding: 10px 30px;  
     text-align: center;

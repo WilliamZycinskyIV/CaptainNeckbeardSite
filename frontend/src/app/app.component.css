@@ -5,8 +5,16 @@ app-navigation-bar{
 
 .page-content{
   min-height: 95vh;
+  padding-top: 20px;
 }
 
 app-footer{
   margin-top: auto;
+}
+
+.full-view{
+  background-color: #1a1a1dc4;
+  max-width: 1500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
 }

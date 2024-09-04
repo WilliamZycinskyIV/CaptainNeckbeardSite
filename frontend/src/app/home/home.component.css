@@ -1,19 +1,40 @@
-.weekly-comic{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
+.weekly-comic-section{
+    background-color: var(--palette-red-accent);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.weekly-comic h1{
+
+.weekly-comic-content h1{
     font-size: 4rem;
 }
 
-.weekly-comic p{
+.weekly-comic-content p{
     font-size: 2rem;
     margin-top: 10px;
 }
 
 .comic-image{
-    width: 100%;
-    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
+.comic-image img{
+    width: 100%;
+
+}
+
+@media screen and (min-width:1001px) {
+    .weekly-comic-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .weekly-comic-content article{
+        padding-bottom: 50px;
+    }
+}
+

@@ -1,68 +1,101 @@
 .navbar{
-    background-color: var(--rDark);
-    border-bottom: 4px solid var(--rBright);
-
     font-size: 3rem;
-
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: var(--palette-off-white);
+    gap: 50px;
 }
+
+.nav-logo img {
+    width: 300px;
+}
+
+.nav-texts{
+    margin: auto 0;
+}
+
+.nav-texts h1{
+    font-size: 2em;
+}
+
 
 
 .nav-links{
-    display: flex;
-    height: 100%;
     list-style: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-top: 10px ;
 }
 
-.nav-item{
-    padding: 10px 15px;
-    border-radius: 20px  20px 0 0;
+.current-route{
+    background-color: var(--palette-deep-blue);
+    padding: 5px 8px;
 
+    border-radius: 30px;
+   
 }
 
-.nav-item *{
-    margin: auto 0;
-    
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
-.nav-item:hover{
-    background-color: var(--rBright);    
-}
-
-.nav-brand{
-    font-weight: bold;
-}
-
-.slogan{
-    font-style: italic;
-    padding: 0 15px;
-}
-
-
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1500px){
     .navbar{
         font-size: 2.5rem;
     }
+    .nav-logo img {
+        width: 250px;
+    }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1200px){
     .navbar{
         font-size: 2rem;
+    }
+    .nav-logo img {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .navbar{
+        font-size: 1.7rem;
+        gap: 25px;
+    }
+    .nav-logo img {
+        width: 150px;
     }
 }
 
 @media screen and (max-width: 775px){
-    .slogan{
-        display: none;    
-    }
-}
-
-@media screen and (max-width: 525px){
     .navbar{
         font-size: 1.5rem;
+
+    }
+    .nav-logo img {
+        width: 120px;
+    }
+
+}
+
+
+@media screen and (min-width: 601px){
+    .navbar{
+        display: flex;
+
+    }
+  
+}
+
+@media screen and (max-width: 600px){
+    .navbar {
+        justify-content: center;
+    }   
+    .nav-logo img{
+        display: none;
+    }
+    .nav-texts{
+        text-align: center;
     }
   
 }

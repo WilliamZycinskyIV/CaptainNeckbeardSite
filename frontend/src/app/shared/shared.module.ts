@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { RouterOutlet, RouterLink, RouterLinkActive, } from '@angular/router';
+
 
 
 @NgModule({
@@ -9,7 +11,12 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
       FooterComponent,
       NavigationBarComponent
     ],
-    imports: [CommonModule],
+    imports: [
+      CommonModule,
+      RouterOutlet, 
+      RouterLink, 
+      RouterLinkActive
+    ],
     providers: [],
     exports: [
       CommonModule,
